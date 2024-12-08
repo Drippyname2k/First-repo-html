@@ -1,0 +1,49 @@
+body{
+        background-color: peru;
+}
+
+h1{
+    color: aliceblue;
+    font-style: italic;
+}
+section{
+    color: aliceblue;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+button {
+    background-color: greenyellow;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 5px;
+    cursor: crosshair;
+    border-color:  black;
+    border-radius: 2cm;
+}
+
+button:hover {
+    background-color:aquamarine;}
+
+.twotothree{
+    color: white;
+background-color: blue;}
+
+.fort{
+    margin-left: 550px;
+}
+
+.easports{
+    margin-left: 600px;
+}

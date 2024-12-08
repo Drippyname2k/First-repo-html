@@ -1,0 +1,123 @@
+body {
+    background-image: url("/Githubingredients/manPosinInTokyo.webp");
+}
+
+.section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+.sectionH2 {
+    color: white;
+    display: inline-block;
+    margin-left: 360px;
+    text-align: center;
+    background-color: black;
+    
+}
+.sectionP {
+   color:whitesmoke;
+    text-align: center;
+        display: inline-block;
+        background-color: black;
+        margin-left: 550px;
+}
+
+body {
+    font-family: url("Githubingredients/Roboto/Roboto-BlackItalic.ttf");
+    
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: white;
+}
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: yellow;
+    font-style: italic;
+}
+h2.font, p.font {
+    text-align: center;
+    margin: 10px auto;
+    font-style: italic;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 10px;
+}
+a {
+    color: greenyellow;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.one{
+    
+    color: black;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+.two{
+    text-align: center;
+    color: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    background-color:brown
+}
+
+.link{
+    color: black;
+}
+button {
+    background-color:black;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 5px;
+    cursor: crosshair;
+    border-color:  black;
+    border-radius: 2cm;
+}
+
+button:hover {
+    background-color:aquamarine;
+}
+
+ul{
+    color: black;
+    margin-top: 55px;
+    color: aliceblue;
+    display:inline-block;
+    background-color: green;
+}
