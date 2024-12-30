@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Games</title>
+    <link rel="stylesheet" href="Bthegames3.css">
+</head>
+<body>
+    <header>
+        <h1>Here is some information:</h1>
+        <p>(Press on one of the games to reveal all you should know.)</p>
+    </header>
+
+    <main>
+        
+        <section class="game-box-section">
+            <button class="game-box" data-game="gta" tabindex="0">Grand Theft Auto</button>
+            <button class="game-box" data-game="fifa" tabindex="0">FIFA</button>
+            <button class="game-box" data-game="fortnite" tabindex="0">Fortnite</button>
+        </section>
+        
+
+        
+        <section class="game-info">
+            <article id="gta" class="game-content">
+                <h2>Grand Theft Auto</h2>
+                <p>This game got released in 2014. The sales went through the roof! It offers a fully customizable experience,
+                    from characters to cars, yachts, and even submarines.
+                    It's perfect for fun adventures with friends. With PS Plus you can play with everyone around the whole world!</p>
+                    <img src="Githubingredients/franklin-chop.jpg" alt="Franklin holding Chop">
+                    <p>Read even more here <a href="https://www.rockstargames.com/gta-v" target="_blank">Rockstar's GTA</a></p>
+            </article>
+
+            <article id="fifa" class="game-content">
+                <h2>FIFA</h2>
+                <p>FIFA has been a gaming staple for decades. With single and multiplayer modes,
+                     it lets you play as or against your favorite teams, design your own player, and build a career! Play with your friends from your bed,
+                    or sit next to eachother, it is all possible!</p>
+                    <img src="Githubingredients/fifa.jpg" alt="A picture of a fifa cover">
+                    <P>Check us out! <a href="https://www.ea.com/nl-nl/games/fifa" target="_blank">EA Games</a></P>
+                    
+            </article>
+
+            <article id="fortnite" class="game-content">
+                <h2>Fortnite</h2>
+                <p>Released in 2017, Fortnite remains one of the most popular games globally. 
+                    Play solo or with friends, customize characters, cars, and weapons, 
+                    and experience fun-filled action-packed gameplay. Play with the whole world completely free!
+                    Play in your style, your way, but most of all have fun your way!</p>
+                    <img src="Githubingredients/f3.jpg" alt="A photo of fortnite">
+                    <img src="Githubingredients/fort fish.jpg" alt="3 Skins as example">
+                    <p>Want to play already? Download me! at <a href="https://store.epicgames.com/en-US/p/fortnite">Epicgames.com</a> </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>@Gamefo. Copying = jailtime.</p>
+        <a href="Ccontactus3.html" class="nextpage">About us</a>
+    </footer>
+
+    <script>
+        
+        const buttons = document.querySelectorAll('.game-box');
+        const contentAreas = document.querySelectorAll('.game-content');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Hide all content areas
+                contentAreas.forEach(content => content.style.display = 'none');
+                
+                // Show selected content
+                const game = button.getAttribute('data-game');
+                document.getElementById(game).style.display = 'block';
+            });
+        });
+
+        // Hide all content by default
+        contentAreas.forEach(content => content.style.display = 'none');
+    </script>
+</body>
+</html>

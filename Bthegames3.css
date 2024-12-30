@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: "schuin";
+    src: url("Githubingredients/Roboto/Roboto-MediumItalic.ttf");
+}
+body {
+    background-color:beige;
+}
+h1 {
+    color: black;
+    font-style: italic;
+}
+section {
+    color: black;
+    font-family: schuin;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+button:hover {
+    background-color: aquamarine;
+}
+.nextpage {
+    color: white;
+    background-color: blue;
+}
+.fort {
+    margin-left: 550px;
+}
+.easports {
+    margin-left: 600px;
+}
+
+
+.game-box-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.game-box {
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-family: schuin;
+    cursor: crosshair;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.game-box:hover {
+    background-color: aquamarine;
+    color: black;
+}
+.game-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid darkslategray;
+    border-radius: 10px;
+    font-family: schuin;
+    background-color:navajowhite
+}
+.game-content {
+    display: none;
+}

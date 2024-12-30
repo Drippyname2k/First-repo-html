@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke; 
+    background-image: url("/Githubingredients/vraagtekens.avif");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    flex-direction: column;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+header{
+    color: yellow;
+    margin:20px;
+    z-index: 1;
+    
+}
+
+.section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: black; 
+}
+
+.sectionH2 {
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.5em;
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.sectionP {
+    color: whitesmoke;
+    text-align: center;
+    background-color: black;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: greenyellow;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+ul {
+    margin-top: 55px;
+    display: inline-block;
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.one {
+    color: black;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.two {
+    text-align: center;
+    color: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Githubingredients/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+} 
